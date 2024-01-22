@@ -8,14 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/e71ebd9c4b.js" crossorigin="anonymous"></script>
+
     <!-- google font Manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
     <style>
-        .font-manrope{
-            font-family: "Manrope", sans-serif;
-        }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
   </head>
   <body class="font-manrope">
@@ -26,7 +29,7 @@
         <div class="carousel w-full rounded">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="images/1.png" class="w-full" />
-            <div class="absolute flex justify-center lg:justify-normal gap-3 transform -translate-y-1/2 left-5 right-5  top-3/4">
+            <div class="absolute flex justify-center lg:justify-normal gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
               <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
             </div>
@@ -49,81 +52,149 @@
       </div>
     </header>
     <main>
-        <!-- hockeys club section  -->
-        <section class="mx-6 lg:mx-12 my-14">
-            <div class="text-center m-6 my-12 ">
-                <h2 class="font-extrabold text-4xl my-6">Professional Hockeys Club</h2>
-                <p class="font-normal text-[16px] text-gray-500 lg:mx-72">Hockey is often considered one of the hardest sports in the world. One of the most significant is the speed of the game.</p>
+      <!-- hockeys club section  -->
+      <section class="mx-6 lg:mx-12 my-14">
+        <div class="text-center m-6 my-12">
+          <h2 class="font-extrabold text-4xl my-6">Professional Hockeys Club</h2>
+          <p class="font-normal text-[16px] text-gray-500 lg:mx-72">
+            Hockey is often considered one of the hardest sports in the world. One of the most significant is the speed of the game.
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-4 space-x-8 space-y-6 lg:space-y-0 justify-center">
+          <div class="text-center">
+            <div class="radial-progress text-red-600" style="--value: 87" role="progressbar">87%</div>
+            <h3 class="font-[600] text-xl">Prayer Facility</h3>
+            <p class="font-normal text-[16px] text-gray-500">
+              Every Muslim is expected to pray five times a day and thus access to prayer facilities.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-gray-400" style="--value: 95" role="progressbar">95%</div>
+            <h3 class="font-[600] text-xl">Prayer Facility</h3>
+            <p class="font-normal text-[16px] text-gray-500">
+              Every Muslim is expected to pray five times a day and thus access to prayer facilities.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-orange-500" style="--value: 90" role="progressbar">90%</div>
+            <h3 class="font-[600] text-xl">Prayer Facility</h3>
+            <p class="font-normal text-[16px] text-gray-500">
+              Every Muslim is expected to pray five times a day and thus access to prayer facilities.
+            </p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-primary" style="--value: 80" role="progressbar">80%</div>
+            <h3 class="font-[600] text-xl">Prayer Facility</h3>
+            <p class="font-normal text-[16px] text-gray-500">
+              Every Muslim is expected to pray five times a day and thus access to prayer facilities.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- program section -->
+      <section class="mx-6 lg:mx-12 my-14">
+        <div class="text-center m-6 my-12">
+          <h2 class="font-extrabold text-4xl my-6">Program Sections</h2>
+          <p class="font-normal text-[16px] text-gray-500 lg:mx-72">
+            The Program Services department provides resources for both growing your membership at the youngest levels.
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-6">
+          <div>
+            <div class="hero min-h-screen rounded-xl" style="background-image: url(images/2.png)">
+              <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+              <div class="hero-content text-neutral-content mt-64">
+                <div class="max-w-md text-left">
+                  <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                  <p class="mb-5">
+                    Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part
+                    of the organization's
+                  </p>
+                  <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
+                </div>
+              </div>
             </div>
-            <div class=" grid lg:grid-cols-4 space-x-8 space-y-6 lg:space-y-0 justify-center">
-                <div class="text-center">
-                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
-                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
-                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
+          </div>
+          <div>
+            <div class="hero min-h-screen rounded-xl" style="background-image: url(images/3.png)">
+              <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+              <div class="hero-content text-neutral-content mt-64">
+                <div class="max-w-md text-left">
+                  <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                  <p class="mb-5">
+                    Hockey 4 Youth is a charitable organization that provides new Canadian youth with an opportunity to play ice hockey at no cost
+                    while learning valuable life
+                  </p>
+                  <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
                 </div>
-                <div class="text-center">
-                    <div class="radial-progress text-gray-400" style="--value:95;" role="progressbar">95%</div>
-                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
-                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
-                </div>
-                <div class="text-center">
-                    <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar">90%</div>
-                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
-                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
-                </div>
-                <div class="text-center">
-                    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
-                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
-                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
-                </div>
+              </div>
             </div>
-        </section>
-        <!-- program section -->
-        <section class="mx-6 lg:mx-12 my-14">
-            <div class="text-center m-6 my-12 ">
-                <h2 class="font-extrabold text-4xl my-6">Program Sections</h2>
-                <p class="font-normal text-[16px] text-gray-500 lg:mx-72">The Program Services department provides resources for both growing your membership at the youngest levels.</p>
+          </div>
+          <div class="grid lg:col-span-2">
+            <div class="hero min-h-screen rounded-xl" style="background-image: url(images/4.png)">
+              <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
+              <div class="hero-content text-neutral-content mt-64 lg:-ml-96">
+                <div class="max-w-md text-left">
+                  <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                  <p class="mb-5">
+                    The Hockey Skating 1 online course is designed to assist professional figure skating coaches with coaching hockey players.
+                  </p>
+                  <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
+                </div>
+              </div>
             </div>
-            <div class="grid lg:grid-cols-2 gap-6">
-                <div>
-                    <div class="hero min-h-screen rounded-xl " style="background-image: url(images/2.png);">
-                        <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
-                        <div class="hero-content text-neutral-content">
-                          <div class=" max-w-md text-left">
-                            <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
-                            <p class="mb-5">Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's</p>
-                            <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div>
-                    <div class="hero min-h-screen rounded-xl" style="background-image: url(images/3.png);">
-                        <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
-                        <div class="hero-content text-neutral-content">
-                          <div class=" max-w-md text-left">
-                            <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
-                            <p class="mb-5">Hockey 4 Youth is a charitable organization that provides new Canadian youth with an opportunity to play ice hockey at no cost while learning valuable life</p>
-                            <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                <div class="grid lg:col-span-2 ">
-                    <div class="hero min-h-screen rounded-xl" style="background-image: url(images/4.png);">
-                        <div class="hero-overlay bg-opacity-60 rounded-xl"></div>
-                        <div class="hero-content text-neutral-content">
-                          <div class=" max-w-md text-left">
-                            <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
-                            <p class="mb-5">The Hockey Skating 1 online course is designed to assist professional figure skating coaches with coaching hockey players.</p>
-                            <button class="btn border-[#FF4240] bg-[#FF4240] text-white">Register Now!</button>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="bg-neutral text-neutral-content">
+      <div class="mx-6 lg:mx-12 my-14 grid lg:grid-cols-10 py-20 space-x-10 grid-rows-3 lg:grid-rows-1">
+        <div class="col-span-10 text-center lg:text-start lg:col-span-4">
+          <header class="footer-title">Get In Touch</header>
+          <div class="grid">
+            <p class="py-4">We've compiled the best real-life examples of Contact Us pages on the web plus.</p>
+            <div class=" grid justify-center lg:justify-normal">
+                <div class="flex gap-4 items-center">
+                    <i class="fa-regular fa-envelope text-red-600"></i>
+                    <a class="link link-hover">hockeys@support.com</a>
+                  </div>
+                  <div class="flex gap-4 items-center py-4">
+                    <i class="fa-solid fa-phone text-red-600"></i>
+                    <a class="link link-hover">+8801749-812970</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-2 text-center space-y-6">
+          <header class="footer-title">Company</header>
+          <div class="grid space-y-4">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </div>
+        </div>
+        <div class="col-span-5 lg:col-span-2 text-center space-y-6">
+          <header class="footer-title">Support</header>
+          <div class="grid space-y-4">
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </div>
+        </div>
+        <div class="col-span-10 lg:col-span-2 text-center lg:text-left space-y-6">
+          <header class="footer-title mt-4 lg:mt-0">Services</header>
+          <div class="grid space-y-4">
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
