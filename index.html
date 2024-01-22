@@ -7,38 +7,78 @@
     <!-- tailwind and daisyUI cnd link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
   </head>
-  <body>
+  <body class="font-manrope">
     <header>
-        <nav></nav>
-        <!-- banner section  -->
-        <div class=" mx-6 lg:mx-12 my-14">
-            <div class="carousel w-full rounded">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="images/1.png" class="w-full" />
-                  <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
-                    <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a> 
-                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="images/2.png" class="w-full" />
-                  <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
-                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
-                    <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="images/3.png" class="w-full" />
-                  <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
-                    <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
-                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
-                  </div>
-                </div> 
-              </div>
+      <nav></nav>
+      <!-- banner section  -->
+      <div class="mx-6 lg:mx-12 my-14">
+        <div class="carousel w-full rounded">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/1.png" class="w-full" />
+            <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
+              <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/2.png" class="w-full" />
+            <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/3.png" class="w-full" />
+            <div class="absolute flex gap-3 transform -translate-y-1/2 left-5 right-5 top-3/4">
+              <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+              <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+        <!-- hockeys club section  -->
+        <section class="mx-6 lg:mx-12 my-14">
+            <div class="text-center m-6 my-12 ">
+                <h2 class="font-extrabold text-4xl my-6">Professional Hockeys Club</h2>
+                <p class="font-normal text-[16px] text-gray-500 lg:mx-72">Hockey is often considered one of the hardest sports in the world due to a number of factors. One of the most significant is the speed and physicality of the game.</p>
+            </div>
+            <div class=" grid lg:grid-cols-4 space-x-8 space-y-6 lg:space-y-0 justify-center">
+                <div class="text-center">
+                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
+                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-gray-400" style="--value:95;" role="progressbar">95%</div>
+                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
+                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar">90%</div>
+                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
+                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="font-[600] text-xl">Prayer Facility</h3>
+                    <p class="font-normal text-[16px] text-gray-500">Every Muslim is expected to pray five times a day and thus access to prayer facilities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
   </body>
 </html>
