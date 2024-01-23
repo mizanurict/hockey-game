@@ -23,9 +23,41 @@
   </head>
   <body class="font-manrope">
     <header>
-      <nav></nav>
+      <nav class="mx-6 lg:mx-12 mb-8">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>                
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="font-extrabold text-3xl">Hockey <span class="text-red-600">’</span> s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-600">Home</a></li>
+                <li><a >Home</a></li>
+                <li><a>About</a></li>                
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end flex space-x-4">
+            <img class="hidden lg:flex" src="images/frame1.svg" alt="">
+            <a class="btn bg-red-500 text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
       <!-- banner section  -->
-      <div class="mx-6 lg:mx-12 my-14">
+      <div class="mx-6 lg:mx-12 my-14 relative">
         <div class="carousel w-full rounded">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="images/1.png" class="w-full" />
@@ -47,6 +79,12 @@
               <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
               <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
             </div>
+          </div>
+        </div>
+        <div class="lg:absolute right-8 bottom-8">
+          <div class="p-8 w-fit lg:w-[35vw] rounded-xl text-white bg-black">
+            <h2 class="font-extrabold text-xl">Meet all the heroes from the field</h2>
+            <p class="text-[16px] opacity-60 mt-4">I found myself face to face with my favorite actor, he ripped my autograph book.</p>
           </div>
         </div>
       </div>
